@@ -1,0 +1,26 @@
+body {
+    font: 20px/1.2 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 40px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.title {
+    width: 300px;
+    height: 200px;
+    padding: 5px 10px 15px 15px;
+    margin: 10px 15px;
+    border: 5px #0f0;
+    border-style: solid dotted none;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    margin: 15px;
+}
+
+.right {
+    width: 30%;
+    float: right;
+    margin: 15px; 
+}

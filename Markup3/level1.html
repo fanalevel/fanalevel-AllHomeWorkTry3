@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Уровень 1</title>
+    <meta name="description" content="Домашняя работа 3">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="image/favicon.ico">
+    <style>
+        blockquote {
+            margin: 0;
+            padding: 50px;
+        }
+    
+        blockquote p {
+            padding: 15px;
+            background: rgb(132, 192, 155);
+            border-radius: 5px;
+        }
+    
+        blockquote p::before {
+            content: '\201C';
+        }
+    
+        blockquote p::after {
+            content: '\201D';
+        }
+    
+        blockquote {
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="image/logo-coral.png" alt="image description" width="70"></a>
+        </div>
+        <div class="nav">
+            <nav id="menu">
+                <ul>
+                    <li><a href="level1.html">Уровень 1</a></li>
+                    <li><a href="level2.html">Уровень 2</a></li>
+                    <li><a href="level3.html">Уровень 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <hr>
+            <h2>Тег style</h2>
+            <blockquote id="first" cite="https://ru.citaty.net/tsitaty-ob-obrazovanii/">
+                <p>Образование — это то, что остаётся после того, как забывается всё выученное в школе.</p>
+                <footer>—Альберт Эйнштейн, <cite>один из основателей современной теоретической физики, лауреат Нобелевской премии, общественный деятель</cite></footer>
+            </blockquote>
+            <hr>
+            <h2>Атрибут style. Не понял как задать кавычки?</h2>
+            <blockquote id="second" cite="https://ru.citaty.net/tsitaty-ob-obrazovanii/" style="border-radius: 10px;">
+                <p style="background: salmon;font-size: 45px;">Образование — это то, что остаётся после того, как забывается всё выученное в школе.</p>
+                <footer>—Альберт Эйнштейн, <cite>один из основателей современной теоретической физики, лауреат Нобелевской премии,
+                        общественный деятель</cite> </footer>
+            </blockquote>
+            <hr>
+            <h2>Подключение css</h2>
+            <blockquote id="third" cite="https://ru.citaty.net/tsitaty-ob-obrazovanii/">
+                <p>Образование — это то, что остаётся после того, как забывается всё
+                    выученное в школе.</p>
+                <footer>—Альберт Эйнштейн, <cite>один из основателей современной теоретической физики, лауреат Нобелевской премии,
+                        общественный деятель</cite> </footer>
+            </blockquote>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

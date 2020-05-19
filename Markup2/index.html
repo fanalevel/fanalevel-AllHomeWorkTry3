@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Лекция №2</title>
+        <meta name="description" content="Домашняя работа 2">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="icon" href="image/favicon.ico">
+    </head>
+    <body style="font-size: 2em;">
+        <h1 style="color: red;">Работа с таблицами и вывод картинок <em>Строчный элемент</em></h1>
+        <nav>
+            <a href="#first">Уровень 1</a>
+            <a href="#second">Уровень 2</a>
+        </nav>
+         <hr>
+        <h2 id="first">Уровень 1</h2> 
+        <hr>
+        <ul>
+            <li><mark><strong>H</strong></mark>yperText</li>
+            <li><mark><strong>T</strong></mark>ransfer</li>
+            <li><mark><strong>P</strong></mark>rotocol</li>
+            <li><mark><strong>S</strong></mark>ecure</li>
+        </ul>
+        <br>
+        <img src="image/ssl-cert.jpg" alt="HTPS" title="Secure">
+        <br>
+        <p>Поговорим о <b>HTTPS</b>. Как вы уже могли заметить, аббревиатура данного <br>бюпротокола имеет в окончании литеру «<b>S</b>», что как бы<br>
+        намекает на то, что <em>речь пойдёт</em> о <b><u><em>безопасном соединении</em></u></b> — последняя<br> буква расшифровывается как <b><a href="https://dictionary.cambridge.org/ru/%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/secure">Secure</a></b> - «Безопасное».</p>>
+        <hr>
+        <h2 id="second">Уровень 2</h2>
+        <hr>
+        <table>
+            <thead>               
+                <tr style="background-color: cadetblue;" >
+                    <th colspan="3">Моя первая таблица</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: aquamarine;">            
+                <tr>
+                    <td><p>Перая ячейка</p></td>
+                    <td><p>Вторая ячейка</p></td>
+                    <th rowspan="3">А это три ячейки третьего столбца объединились в одну большую</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Единственная ячейка второй строки, объединяющая оба столбца</th>                    
+                </tr>
+                <tr>
+                    <td>Это первая ячека третья строки</td>
+                    <td>А это втроая ячейка третьей строки</td>                    
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr style="background-color: aquamarine;">
+                    <th colspan="3">Понравилось делать таблицы?</th>                    
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

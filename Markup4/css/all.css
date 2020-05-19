@@ -1,0 +1,98 @@
+html {
+    font-size: 20px;
+}
+
+.logo {
+    float: left;
+    padding-right: 1rem;
+}
+
+p.index {
+    margin: 3rem;
+    font-size: 3rem;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 0.1rem;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+#menu ul li {
+    float: left;
+    border-right: 0.3rem solid #ffffff;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+#menu ul li a {
+    display: block;
+    color: yellowgreen;
+    text-align: center;
+    padding: 0.7rem 0.8rem;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: rgb(218, 8, 8);
+    font-size: 1rem;
+}
+
+#menu li:nth-child(3n-2) {
+    background: none;
+}
+
+li {
+    list-style: none;
+}
+
+li:first-child a {
+    color: green;
+}
+
+li:nth-child(even) {
+    font-size: 1rem;
+}
+
+li:nth-child(odd) {
+    font-size: 0.9rem;
+}
+
+li:nth-child(3n-2) {
+    background: yellow;
+}
+
+.level1 li::before {
+    content: "--";
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    font-size: 2rem;
+}
+
+.level2 h3:first-of-type {
+    color: pink;
+}
+
+.level2 p#greycol {
+    color: grey;
+}
+
+.level2 div p:only-child {
+    color: red;
+}
+
+.level2 h3+p:nth-child(n+3) {
+    color: green;
+} 
+
+.level2 p:last-of-type {
+    color: yellow;
+}

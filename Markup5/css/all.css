@@ -1,0 +1,38 @@
+body {
+    font: oblique 700 20px/25px 'Segoe UI', Tahoma, Geneva, Verdana,   sans-serif;
+    text-indent: 40px;
+    word-spacing: 5px;
+    letter-spacing: 1px;    
+}
+
+
+
+.bg-box {
+    margin-bottom: 2rem;
+    height: 800px;
+    width: 1200px;
+    background-color: #008000;
+    background-image: url(..//image/grass-png-images-pictures-transparent-28.png), url(../image/lamp-png-0.png),
+    url(..//image/webp.webp), url(..//image/58eb07b830eab15b56162788.png), url(..//image/pole-zelen-trava-dom-derevya.jpg);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, no-repeat;
+    background-size: 300px, 70px, 50px, 50px, 800px;
+    background-position: bottom, top, left, right, center;
+    
+}
+
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background: repeating-linear-gradient(#008000, #008000 10%, #fff 10%, #fff 20%);
+}
+
+.box2 {
+    background: linear-gradient(135deg, #000 20%, #aebcbf 10%, #aebcbf 80%, #000 80%);
+}
+
+.box3 {
+    background: radial-gradient(#f00 20%, #000 20%);
+}

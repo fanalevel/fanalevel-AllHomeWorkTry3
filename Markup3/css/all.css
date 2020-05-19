@@ -1,0 +1,93 @@
+.logo {
+    float: left;
+    padding-right: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 25px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;  
+}
+
+nav ul li {
+  float: left;
+  border-right:5px solid #ffffff; 
+  font-size: 24px;
+  font-family: monospace; 
+}
+
+nav ul li a {
+  display: block;
+  color: yellowgreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#third p {
+   padding: 15px;
+   background: sienna;
+   border-radius: 5px;
+   font-size: 60px;
+}
+
+#third p::before {
+    content: '\00ab';
+}
+
+#third p::after {
+    content: '\00bb';
+}
+
+hr+h2 {
+    font-size: 50;
+    font-family: 'Verdana';
+    text-align: center;
+    
+}
+
+a[href^="https"] {
+    color: #f00;
+}
+
+ul ul a[title="youtube"] {
+    color: #ff8d00;
+}
+
+ul+p {
+    font-size: 26px;
+}
+
+a[title] {
+    border: 2px solid #067b09;
+}
+
+h3 {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+div div p {
+    color: red;
+}
+
+div div~h3 {
+    color: inherit;
+}
+
+h3[title="text"] {
+    color: blue;
+}
+
+h3[title="text"]+p {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
