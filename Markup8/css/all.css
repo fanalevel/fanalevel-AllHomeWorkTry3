@@ -88,21 +88,21 @@ img {
     position: absolute;
     right: 40%;
     top: 45%;
-    rotate: -25deg;
+    transform: rotate (-25deg);
 }  
 
 .card2 {
     position: absolute;
     right: 35%;
     top: 45%;
-    rotate: -10deg;
+    transform: rotate (-10deg);
 }
 
 .card3 {
     position: absolute;
     right: 30%;
     top: 50%;
-    rotate: 10deg;
+    transform: rotate (10deg);
 } 
 
 .card1:hover, .card2:hover, .card3:hover { 
