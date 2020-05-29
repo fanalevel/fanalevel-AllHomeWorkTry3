@@ -1,0 +1,119 @@
+body {
+    font: 18px/25px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    max-height: 15vh;
+    align-items: center;        
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    background: #ccc;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo img {
+    max-height: 10vh;
+}
+
+.mainnav ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.mainnav ul li a:hover {
+    color: red;
+}
+
+.mainnav ul li a {
+    text-decoration: none;
+}
+
+aside {
+    width: 210px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+}
+
+.leftA {
+    order: -1;
+    background-color: palevioletred;
+}
+
+.rightA {
+    order: 3;
+    background-color: grey;
+}
+
+.content {
+    flex: 1;
+}
+
+.first-form legend {
+    color: red;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+    flex-grow: 1;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form-row>label {
+    width: 120px;
+}
+
+.form-row input[type="checkbox"] {
+    display: none;
+}
+
+.form-check label:not(:first-child):before {
+    content: "";
+    width: 25px;
+    height:25px;
+    border: 1px solid #00f;
+    border-radius: 2px;
+    background: red;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.form-check input:checked + label:before { 
+    background: green;    
+    content: "\2713";
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}    
